@@ -8,6 +8,6 @@ import retrofit2.http.Query;
 public interface APIInterface {
 
     @GET("api/beers")
-    Call<List<Data>> getBeersWithAllParams(@Query("abv") float abv, @Query("srm") float srm,  @Query("ibu") float ibu);
+    Call<List<Data>> getBeersWithAllParams(@Query("abv") int abv, @Query("srm") int srm,  @Query("ibu") int ibu);
 
 }
