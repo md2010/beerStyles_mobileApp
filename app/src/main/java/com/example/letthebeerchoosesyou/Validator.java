@@ -6,11 +6,11 @@ import java.util.List;
 
 public class Validator {
 
-    private float abv;
-    private float srm;
-    private float ibu;
+    private int abv;
+    private int srm;
+    private int ibu;
 
-    public Validator (List<Float> params) {
+    public Validator (List<Integer> params) {
         this.abv = params.get(0);
         this.srm = params.get(1);
         this.ibu = params.get(2);
