@@ -12,8 +12,8 @@ public class Data implements Serializable {
     public String style;
     public int srmFrom;
     public int srmTo;
-    public float abvFrom;
-    public float abvTo;
+    public int abvFrom;
+    public int abvTo;
     public int ibuFrom;
     public int ibuTo;
     public String imgsrc;
