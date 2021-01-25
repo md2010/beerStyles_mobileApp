@@ -9,7 +9,7 @@
     <string name="ibuHint">Type in wanted IBU value...</string>
     <string name="btnDiscover">DISCOVER BEERS!</string>
     <string name="results">RESULTS</string>
-    <string name="linktoweb">More about Beer Style Families and Beer Styles at: www.diveintobeertypes.com</string>
+    <string name="linktoweb">More about Beer Style Families and Beer Styles at: www.diveintobeerstyles.com</string>
     <string name="title_activity_poll">PollActivity</string>
     <string name="beerlist">My Beer Bucket List</string>
     <string name="btnList">My Beer Bucket List</string>
