@@ -25,7 +25,7 @@ public class ResultsActivity extends Activity implements ItemClickListener{
     private RecyclerView recView;
     private RecyclerResultsAdapter adapter;
     protected LinearLayoutManager layoutManager;
-    private ArrayList<Float> queryParams;
+    private ArrayList<Integer> queryParams;
     public List<Data> bucketList = new ArrayList<>();
     Call<List<Data>> apiCall;
 
@@ -34,7 +34,7 @@ public class ResultsActivity extends Activity implements ItemClickListener{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_results);
         setUpRecyclerView();
-        queryParams = (ArrayList<Float>) getIntent(). getSerializableExtra("queryParams");
+        queryParams = (ArrayList<Integer>) getIntent(). getSerializableExtra("queryParams");
         setUpApiCall();
     }
 
