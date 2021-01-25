@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Let the beer chooses you!</string>
+    <string name="btnStart">Find new</string>
+    <string name="abvText">Alchocol (ABV [2, 13])</string>
+    <string name="abvHint">Type in wanted ABV value...</string>
+    <string name="srmText">Color (SRM from [2 to 40])</string>
+    <string name="srmHint">Type in wanted SRM value...</string>
+    <string name="ibuText"> Bitternes (IBU [0,100])</string>
+    <string name="ibuHint">Type in wanted IBU value...</string>
+    <string name="btnDiscover">DISCOVER BEERS!</string>
+    <string name="results">RESULTS</string>
+    <string name="linktoweb">More about Beer Style Families and Beer Styles at: www.diveintobeertypes.com</string>
+    <string name="title_activity_poll">PollActivity</string>
+    <string name="beerlist">My Beer Bucket List</string>
+    <string name="btnList">My Beer Bucket List</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_results">ResultsActivity</string>
+    <string name="title_activity_my_beer_list">MyBeerList</string>
+</resources>

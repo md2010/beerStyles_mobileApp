@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+    <TextView
+        android:id="@+id/tvResults"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="@string/beerlist"
+        android:textSize="32dp"
+        android:textAlignment="center"
+        android:textColor="@color/whiteish"
+        android:layout_marginTop="0dp"
+        android:fontFamily="sans-serif-medium"
+        android:background="@color/whiteishTransparent"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recView"
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/whiteish"
+        />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginBottom="50dp"
+        android:adjustViewBounds="true"
+        android:onClick="launchMainActivity"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/homebutton" />
+
+</LinearLayout>
