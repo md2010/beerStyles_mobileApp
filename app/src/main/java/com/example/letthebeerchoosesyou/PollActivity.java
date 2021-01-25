@@ -28,7 +28,7 @@ public class PollActivity extends Activity {
     private EditText etSRM;
     private EditText etIBU;
     private int numberOfQueryParams = 3;
-    static List<Float> queryParams;
+    static List<Integer> queryParams;
     private int countFieldsFilled = 0;
     private Validator validator;
 
@@ -49,9 +49,9 @@ public class PollActivity extends Activity {
         inputValues.add(etSRM.getText().toString());
         for (int i = 0; i < numberOfQueryParams; i++) {
             if (inputValues.get(i).equals(""))
-                queryParams.add(404f);
+                queryParams.add(404);
             else {
-                queryParams.add(Float.parseFloat(inputValues.get(i)));
+                queryParams.add(Integer.parseInt(inputValues.get(i)));
                 countFieldsFilled++;
             }
         }
